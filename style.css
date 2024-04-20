@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+:root{
+    --color-primary: #6C9BCF;
+    --color-danger: #FFC803;
+    --color-success: #1B9C85;
+    --color-warning: #F7D060;
+    --color-white: #fff;
+    --color-info-dark: #7d8da1;
+    --color-dark: #363949;
+    --color-light: rgba(132, 139, 200, 0.18);
+    --color-dark-variant: #677483;
+    --color-background: #f6f6f9;
+
+    --card-border-radius: 2rem;
+    --border-radius-1: 0.4rem;
+    --border-radius-2: 1.2rem;
+
+    --card-padding: 1.8rem;
+    --padding-1: 1.2rem;
+
+    --box-shadow: 0 2rem 3rem var(--color-light);
+}
+
+.dark-mode-variables{
+    --color-background: #181a1e;
+    --color-white: #202528;
+    --color-dark: #edeffd;
+    --color-dark-variant: #a3bdcc;
+    --color-light: rgba(0, 0, 0, 0.4);
+    --box-shadow: 0 2rem 3rem var(--color-light);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    appearance: 0;
+    border: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 14px;
+}
+
+body{
+    width: 100%;
+    height: 754px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.88rem;
+    user-select: none;
+    overflow-x: hidden;
+    color: var(--color-dark);
+    background-color: #181a1e;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: #202528;
+    width: 307px;
+    height: 495px;
+
+    border: 1px solid #edeffd;
+
+    text-align: center;
+
+    border-radius: 15px;
+}
+
+.container .result {
+    width: 300px;
+    height: 120px;
+
+    border-radius: 15px;
+
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.container .result input {
+    width: 280px;
+    height: 80px;
+    margin-left: 5px;
+
+    background-color: #202528;
+    color: #edeffd;
+    caret-color: #edeffd;
+
+    font-size: 30px;
+}
+
+/* START OF LINE 1 */
+
+.container .linha1 #ac {
+    width: 200px;
+    height: 70px;
+    
+    font-size: 18px;
+    background-color: #677483;
+
+    border-radius: 20px;
+}
+
+
+/* END OF LINE 1 */
+
+
+
+#seven, #eight, #nine, #six, #five, #four, #three, #two, #one {
+    width: 65px;
+    height: 70px;
+
+    font-size: 18px;
+    border-radius: 20px;
+    margin-top: 6px;
+}
+
+#times, #minus, #plus, #division, #equals {
+    width: 100px;
+    height: 70px;
+
+    font-size: 18px;
+    background-color: var(--color-danger);
+
+    border-radius: 20px;
+}
+
+.container .linha5 {
+    margin-top: 6px;
+}
+
+#zero {
+    width: 130px;
+    height: 70px;
+
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+#virgula {
+    width: 66px;
+    height: 70px;
+
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+
+
+
+

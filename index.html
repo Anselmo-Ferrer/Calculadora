@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="result">
+            <input type="text" id="display" readonly>
+        </div>
+    
+        <div class="linha1">
+            <button onclick="clearDisplay()" id="ac">AC</button>
+            <button onclick="appendCharacter(' / ')" id="division">÷</button>
+        </div>
+    
+        <div class="linah2">
+            <button onclick="appendCharacter('7')" id="seven">7</button>
+            <button onclick="appendCharacter('8')" id="eight">8</button>
+            <button onclick="appendCharacter('9')" id="nine">9</button>
+            <button onclick="appendCharacter(' * ')" id="times">X</button>
+        </div>
+    
+        <div class="linha3">
+            <button onclick="appendCharacter('4')" id="four">4</button>
+            <button onclick="appendCharacter('5')" id="five">5</button>
+            <button onclick="appendCharacter('6')" id="six">6</button>
+            <button onclick="appendCharacter(' - ')" id="minus">-</button>
+        </div>
+        <div class="linha4">
+            <button onclick="appendCharacter('1')" id="one">1</button>
+            <button onclick="appendCharacter('2')" id="two">2</button>
+            <button onclick="appendCharacter('3')" id="three">3</button>
+            <button onclick="appendCharacter(' + ')" id="plus">+</button>
+        </div>
+        <div class="linha5">
+            <button onclick="appendCharacter('0')" id="zero">0</button>
+            <button onclick="appendCharacter('.')" id="virgula">,</button>
+            <button onclick="calculate()" id="equals">=</button>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
